@@ -1,0 +1,306 @@
+<?xml version="1.0"?>
+<!DOCTYPE ipe SYSTEM "ipe.dtd">
+<ipe version="70206" creator="Ipe 7.2.7">
+<info created="D:20130413174525" modified="D:20190126180442"/>
+<preamble>\usepackage{xypic}
+\usepackage{amsmath}
+\usepackage{amssymb}</preamble>
+<ipestyle name="basic">
+<symbol name="arrow/arc(spx)">
+<path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
+0 0 m
+-1 0.333 l
+-1 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="arrow/farc(spx)">
+<path stroke="sym-stroke" fill="white" pen="sym-pen">
+0 0 m
+-1 0.333 l
+-1 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="mark/circle(sx)" transformations="translations">
+<path fill="sym-stroke">
+0.6 0 0 0.6 0 0 e
+0.4 0 0 0.4 0 0 e
+</path>
+</symbol>
+<symbol name="mark/disk(sx)" transformations="translations">
+<path fill="sym-stroke">
+0.6 0 0 0.6 0 0 e
+</path>
+</symbol>
+<symbol name="mark/fdisk(sfx)" transformations="translations">
+<group>
+<path fill="sym-fill">
+0.5 0 0 0.5 0 0 e
+</path>
+<path fill="sym-stroke" fillrule="eofill">
+0.6 0 0 0.6 0 0 e
+0.4 0 0 0.4 0 0 e
+</path>
+</group>
+</symbol>
+<symbol name="mark/box(sx)" transformations="translations">
+<path fill="sym-stroke" fillrule="eofill">
+-0.6 -0.6 m
+0.6 -0.6 l
+0.6 0.6 l
+-0.6 0.6 l
+h
+-0.4 -0.4 m
+0.4 -0.4 l
+0.4 0.4 l
+-0.4 0.4 l
+h
+</path>
+</symbol>
+<symbol name="mark/square(sx)" transformations="translations">
+<path fill="sym-stroke">
+-0.6 -0.6 m
+0.6 -0.6 l
+0.6 0.6 l
+-0.6 0.6 l
+h
+</path>
+</symbol>
+<symbol name="mark/fsquare(sfx)" transformations="translations">
+<group>
+<path fill="sym-fill">
+-0.5 -0.5 m
+0.5 -0.5 l
+0.5 0.5 l
+-0.5 0.5 l
+h
+</path>
+<path fill="sym-stroke" fillrule="eofill">
+-0.6 -0.6 m
+0.6 -0.6 l
+0.6 0.6 l
+-0.6 0.6 l
+h
+-0.4 -0.4 m
+0.4 -0.4 l
+0.4 0.4 l
+-0.4 0.4 l
+h
+</path>
+</group>
+</symbol>
+<symbol name="mark/cross(sx)" transformations="translations">
+<group>
+<path fill="sym-stroke">
+-0.43 -0.57 m
+0.57 0.43 l
+0.43 0.57 l
+-0.57 -0.43 l
+h
+</path>
+<path fill="sym-stroke">
+-0.43 0.57 m
+0.57 -0.43 l
+0.43 -0.57 l
+-0.57 0.43 l
+h
+</path>
+</group>
+</symbol>
+<symbol name="arrow/fnormal(spx)">
+<path stroke="sym-stroke" fill="white" pen="sym-pen">
+0 0 m
+-1 0.333 l
+-1 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="arrow/pointed(spx)">
+<path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
+0 0 m
+-1 0.333 l
+-0.8 0 l
+-1 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="arrow/fpointed(spx)">
+<path stroke="sym-stroke" fill="white" pen="sym-pen">
+0 0 m
+-1 0.333 l
+-0.8 0 l
+-1 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="arrow/linear(spx)">
+<path stroke="sym-stroke" pen="sym-pen">
+-1 0.333 m
+0 0 l
+-1 -0.333 l
+</path>
+</symbol>
+<symbol name="arrow/fdouble(spx)">
+<path stroke="sym-stroke" fill="white" pen="sym-pen">
+0 0 m
+-1 0.333 l
+-1 -0.333 l
+h
+-1 0 m
+-2 0.333 l
+-2 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="arrow/double(spx)">
+<path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
+0 0 m
+-1 0.333 l
+-1 -0.333 l
+h
+-1 0 m
+-2 0.333 l
+-2 -0.333 l
+h
+</path>
+</symbol>
+<pen name="heavier" value="0.8"/>
+<pen name="fat" value="1.2"/>
+<pen name="ultrafat" value="2"/>
+<symbolsize name="large" value="5"/>
+<symbolsize name="small" value="2"/>
+<symbolsize name="tiny" value="1.1"/>
+<arrowsize name="large" value="10"/>
+<arrowsize name="small" value="5"/>
+<arrowsize name="tiny" value="3"/>
+<color name="red" value="1 0 0"/>
+<color name="green" value="0 1 0"/>
+<color name="blue" value="0 0 1"/>
+<color name="yellow" value="1 1 0"/>
+<color name="orange" value="1 0.647 0"/>
+<color name="gold" value="1 0.843 0"/>
+<color name="purple" value="0.627 0.125 0.941"/>
+<color name="gray" value="0.745"/>
+<color name="brown" value="0.647 0.165 0.165"/>
+<color name="navy" value="0 0 0.502"/>
+<color name="pink" value="1 0.753 0.796"/>
+<color name="seagreen" value="0.18 0.545 0.341"/>
+<color name="turquoise" value="0.251 0.878 0.816"/>
+<color name="violet" value="0.933 0.51 0.933"/>
+<color name="darkblue" value="0 0 0.545"/>
+<color name="darkcyan" value="0 0.545 0.545"/>
+<color name="darkgray" value="0.663"/>
+<color name="darkgreen" value="0 0.392 0"/>
+<color name="darkmagenta" value="0.545 0 0.545"/>
+<color name="darkorange" value="1 0.549 0"/>
+<color name="darkred" value="0.545 0 0"/>
+<color name="lightblue" value="0.678 0.847 0.902"/>
+<color name="lightcyan" value="0.878 1 1"/>
+<color name="lightgray" value="0.827"/>
+<color name="lightgreen" value="0.565 0.933 0.565"/>
+<color name="lightyellow" value="1 1 0.878"/>
+<dashstyle name="dashed" value="[4] 0"/>
+<dashstyle name="dotted" value="[1 3] 0"/>
+<dashstyle name="dash dotted" value="[4 2 1 2] 0"/>
+<dashstyle name="dash dot dotted" value="[4 2 1 2 1 2] 0"/>
+<textsize name="large" value="\large"/>
+<textsize name="Large" value="\Large"/>
+<textsize name="LARGE" value="\LARGE"/>
+<textsize name="huge" value="\huge"/>
+<textsize name="Huge" value="\Huge"/>
+<textsize name="small" value="\small"/>
+<textsize name="footnote" value="\footnotesize"/>
+<textsize name="tiny" value="\tiny"/>
+<textstyle name="center" begin="\begin{center}" end="\end{center}"/>
+<textstyle name="itemize" begin="\begin{itemize}" end="\end{itemize}"/>
+<textstyle name="item" begin="\begin{itemize}\item{}" end="\end{itemize}"/>
+<gridsize name="4 pts" value="4"/>
+<gridsize name="8 pts (~3 mm)" value="8"/>
+<gridsize name="16 pts (~6 mm)" value="16"/>
+<gridsize name="32 pts (~12 mm)" value="32"/>
+<gridsize name="10 pts (~3.5 mm)" value="10"/>
+<gridsize name="20 pts (~7 mm)" value="20"/>
+<gridsize name="14 pts (~5 mm)" value="14"/>
+<gridsize name="28 pts (~10 mm)" value="28"/>
+<gridsize name="56 pts (~20 mm)" value="56"/>
+<anglesize name="90 deg" value="90"/>
+<anglesize name="60 deg" value="60"/>
+<anglesize name="45 deg" value="45"/>
+<anglesize name="30 deg" value="30"/>
+<anglesize name="22.5 deg" value="22.5"/>
+<tiling name="falling" angle="-60" step="4" width="1"/>
+<tiling name="rising" angle="30" step="4" width="1"/>
+</ipestyle>
+<page>
+<layer name="alpha"/>
+<view layers="alpha" active="alpha"/>
+<group layer="alpha" matrix="1 0 0 1 16.7177 0">
+<group matrix="1 0 0 1 -0.246233 0">
+<text matrix="1 0 0 1 92.7049 1.57798" transformations="translations" pos="75.1894 779.093" stroke="black" type="label" width="34.658" height="18.292" depth="5.48" valign="baseline" style="math">\displaystyle\bigoplus^{a+b=k-1}</text>
+<text matrix="1 0 0 1 73.6146 8.79379" transformations="translations" pos="87.2872 757.001" stroke="black" type="label" width="48.643" height="7.473" depth="2.49" valign="baseline" style="math">H^a(U\cap V)</text>
+<text matrix="1 0 0 1 90.8231 1.11587" transformations="translations" pos="88.8652 752.793" stroke="black" type="label" width="11.07" height="7.473" depth="2.49" valign="baseline" style="math">\bigotimes</text>
+<text matrix="1 0 0 1 76.1322 -0.184165" transformations="translations" pos="94.1251 741.221" stroke="black" type="label" width="29.932" height="8.459" depth="2.49" valign="baseline" style="math">H^b(N)</text>
+</group>
+<text matrix="1 0 0 1 57.0904 -8.58986" transformations="translations" pos="171.856 683.803" stroke="black" type="label" width="87.939" height="8.459" depth="2.49" halign="right" valign="baseline" style="math">H^{k-1}((U\cap V)\times N)</text>
+</group>
+<group matrix="1 0 0 1 14.5475 0">
+<group matrix="1 0 0 1 42.4654 0">
+<text matrix="1 0 0 1 170.944 1.57798" transformations="translations" pos="75.1894 779.093" stroke="black" type="label" width="24.461" height="18.292" depth="5.48" valign="baseline" style="math">\displaystyle\bigoplus^{a+b=k}</text>
+<text matrix="1 0 0 1 146.756 8.79379" transformations="translations" pos="87.2872 757.001" stroke="black" type="label" width="48.643" height="7.473" depth="2.49" valign="baseline" style="math">H^a(U\cup V)</text>
+<text matrix="1 0 0 1 163.964 1.11587" transformations="translations" pos="88.8652 752.793" stroke="black" type="label" width="11.07" height="7.473" depth="2.49" valign="baseline" style="math">\bigotimes</text>
+<text matrix="1 0 0 1 149.273 -0.184165" transformations="translations" pos="94.1251 741.221" stroke="black" type="label" width="29.932" height="8.459" depth="2.49" valign="baseline" style="math">H^b(N)</text>
+</group>
+<text matrix="1 0 0 1 167.844 -8.58986" transformations="translations" pos="171.856 683.803" stroke="black" type="label" width="77.741" height="8.459" depth="2.49" halign="right" valign="baseline" style="math">H^k((U\cup V)\times N)</text>
+</group>
+<group matrix="1 0 0 1 68.379 0">
+<group matrix="1 0 0 1 42.4491 0">
+<text matrix="1 0 0 1 344.494 1.57798" transformations="translations" pos="75.1894 779.093" stroke="black" type="label" width="24.461" height="18.292" depth="5.48" valign="baseline" style="math">\displaystyle\bigoplus^{a+b=k}</text>
+<text matrix="1 0 0 1 320.305 8.79379" transformations="translations" pos="87.2872 757.001" stroke="black" type="label" width="48.643" height="7.473" depth="2.49" valign="baseline" style="math">H^a(U\cap V)</text>
+<text matrix="1 0 0 1 337.514 1.11587" transformations="translations" pos="88.8652 752.793" stroke="black" type="label" width="11.07" height="7.473" depth="2.49" valign="baseline" style="math">\bigotimes</text>
+<text matrix="1 0 0 1 322.823 -0.184165" transformations="translations" pos="94.1251 741.221" stroke="black" type="label" width="29.932" height="8.459" depth="2.49" valign="baseline" style="math">H^b(N)</text>
+</group>
+<text matrix="1 0 0 1 341.377 -8.58986" transformations="translations" pos="171.856 683.803" stroke="black" type="label" width="77.741" height="8.459" depth="2.49" halign="right" valign="baseline" style="math">H^k((U\cap V)\times N)</text>
+</group>
+<text matrix="1 0 0 1 -4.32782 -2.85845" transformations="translations" pos="136.467 768.888" stroke="black" type="label" width="39.418" height="12.43" depth="7.28" valign="baseline" style="math">\xrightarrow[\phantom{aaaaaaia}]{j^*}</text>
+<text matrix="1 0 0 1 93.7659 -2.85845" transformations="translations" pos="136.467 768.888" stroke="black" type="label" width="56.704" height="11.959" depth="7.28" valign="baseline" style="math">\xrightarrow[\phantom{aaaaaaaaaaia}]{\mathrm{d}^*}</text>
+<text matrix="1 0 0 1 207.727 -2.85845" transformations="translations" pos="136.467 768.888" stroke="black" type="label" width="40.921" height="11.962" depth="6.98" valign="baseline" style="math">\xrightarrow[\phantom{aaaaaaaa}]{i^*}</text>
+<text matrix="1 0 0 1 336.268 -2.85845" transformations="translations" pos="136.467 768.888" stroke="black" type="label" width="43.74" height="12.43" depth="7.28" valign="baseline" style="math">\xrightarrow[\phantom{aaaaaaaai}]{j^*}</text>
+<group>
+<group matrix="1 0 0 1 2.69661 0">
+<text matrix="1 0 0 1 -7.20247 1.57798" transformations="translations" pos="75.1894 779.093" stroke="black" type="label" width="34.658" height="18.292" depth="5.48" valign="baseline" style="math">\displaystyle\bigoplus^{a+b=k-1}</text>
+<text matrix="1 0 0 1 -41.5503 8.79379" transformations="translations" pos="87.2872 757.001" stroke="black" type="label" width="79.158" height="7.473" depth="2.49" valign="baseline" style="math">(H^a(U)\times H^a(V))</text>
+<text matrix="1 0 0 1 -9.08427 1.11587" transformations="translations" pos="88.8652 752.793" stroke="black" type="label" width="11.07" height="7.473" depth="2.49" valign="baseline" style="math">\bigotimes</text>
+<text matrix="1 0 0 1 -23.7752 -0.184165" transformations="translations" pos="94.1251 741.221" stroke="black" type="label" width="29.932" height="8.459" depth="2.49" valign="baseline" style="math">H^b(N)</text>
+</group>
+<text matrix="1 0 0 1 36.8507 -2.41957" transformations="translations" pos="81.7092 691.045" stroke="black" type="label" width="61.095" height="8.459" depth="2.49" halign="right" valign="baseline" style="math">H^{k-1}(U\times N)</text>
+<text matrix="1 0 0 1 36.9192 -29.2452" transformations="translations" pos="81.7092 691.045" stroke="black" type="label" width="61.232" height="8.459" depth="2.49" halign="right" valign="baseline" style="math">H^{k-1}(V\times N)</text>
+<text matrix="1.45475 0 0 1.45475 -36.6955 -313.892" pos="89.5991 679.473" stroke="black" type="label" width="7.749" height="5.812" depth="0.83" halign="right" valign="baseline" style="math">\times</text>
+</group>
+<group>
+<group matrix="1 0 0 1 79.6954 0">
+<text matrix="1 0 0 1 261.944 1.57798" transformations="translations" pos="75.1894 779.093" stroke="black" type="label" width="24.461" height="18.292" depth="5.48" valign="baseline" style="math">\displaystyle\bigoplus^{a+b=k}</text>
+<text matrix="1 0 0 1 222.498 8.79379" transformations="translations" pos="87.2872 757.001" stroke="black" type="label" width="79.158" height="7.473" depth="2.49" valign="baseline" style="math">(H^a(U)\times H^a(V))</text>
+<text matrix="1 0 0 1 254.964 1.11587" transformations="translations" pos="88.8652 752.793" stroke="black" type="label" width="11.07" height="7.473" depth="2.49" valign="baseline" style="math">\bigotimes</text>
+<text matrix="1 0 0 1 240.273 -0.184165" transformations="translations" pos="94.1251 741.221" stroke="black" type="label" width="29.932" height="8.459" depth="2.49" valign="baseline" style="math">H^b(N)</text>
+</group>
+<text matrix="1 0 0 1 372.799 -2.41957" transformations="translations" pos="81.7092 691.045" stroke="black" type="label" width="50.897" height="8.459" depth="2.49" halign="right" valign="baseline" style="math">H^k(U\times N)</text>
+<text matrix="1 0 0 1 372.867 -29.2452" transformations="translations" pos="81.7092 691.045" stroke="black" type="label" width="51.034" height="8.459" depth="2.49" halign="right" valign="baseline" style="math">H^k(V\times N)</text>
+<text matrix="1.45475 0 0 1.45475 304.351 -313.892" pos="89.5991 679.473" stroke="black" type="label" width="7.749" height="5.812" depth="0.83" halign="right" valign="baseline" style="math">\times</text>
+</group>
+<text matrix="1 0 0 1 -19.6804 -93.212" transformations="translations" pos="136.467 768.888" stroke="black" type="label" width="37.916" height="12.43" depth="7.28" valign="baseline" style="math">\xrightarrow[\phantom{aaaaaaii}]{j^*}</text>
+<text matrix="1 0 0 1 111.531 -93.212" transformations="translations" pos="136.467 768.888" stroke="black" type="label" width="26.454" height="11.959" depth="7.28" valign="baseline" style="math">\xrightarrow[\phantom{aaaia}]{\mathrm{d}^*}</text>
+<text matrix="1 0 0 1 219.049 -93.212" transformations="translations" pos="136.467 768.888" stroke="black" type="label" width="48.061" height="11.959" depth="7.28" valign="baseline" style="math">\xrightarrow[\phantom{aaaaaaaaai}]{i^*}</text>
+<text matrix="1 0 0 1 316.308 -93.212" transformations="translations" pos="136.467 768.888" stroke="black" type="label" width="48.061" height="12.43" depth="7.28" valign="baseline" style="math">\xrightarrow[\phantom{aaaaaaaaai}]{j^*}</text>
+<text matrix="0 -1 1 0 -683.602 872.594" pos="136.467 768.888" stroke="black" type="label" width="36.6" height="12.432" depth="6.98" valign="baseline" style="math">\xrightarrow[\phantom{aaaaaaa}]{\phantom{j^*}}</text>
+<text matrix="0 -1 1 0 -569.92 872.594" pos="136.467 768.888" stroke="black" type="label" width="49.564" height="12.432" depth="6.98" valign="baseline" style="math">\xrightarrow[\phantom{aaaaaaaaaa}]{\phantom{j^*}}</text>
+<text matrix="0 -1 1 0 -456.237 872.594" pos="136.467 768.888" stroke="black" type="label" width="49.564" height="12.432" depth="6.98" valign="baseline" style="math">\xrightarrow[\phantom{aaaaaaaaaa}]{\phantom{j^*}}</text>
+<text matrix="0 -1 1 0 -228.873 872.594" pos="136.467 768.888" stroke="black" type="label" width="49.564" height="12.432" depth="6.98" valign="baseline" style="math">\xrightarrow[\phantom{aaaaaaaaaa}]{\phantom{j^*}}</text>
+<text matrix="1 0 0 1 -11.4161 -2.71279" transformations="translations" pos="102.004 717.135" stroke="black" type="label" width="7.749" height="6.808" depth="0" valign="baseline" style="math">\Psi</text>
+<text matrix="1 0 0 1 102.281 -9.19479" transformations="translations" pos="102.004 717.135" stroke="black" type="label" width="7.749" height="6.808" depth="0" valign="baseline" style="math">\Psi</text>
+<text matrix="1 0 0 1 215.977 -9.19479" transformations="translations" pos="102.004 717.135" stroke="black" type="label" width="7.749" height="6.808" depth="0" valign="baseline" style="math">\Psi</text>
+<text matrix="0 -1 1 0 -342.492 872.594" pos="136.467 768.888" stroke="black" type="label" width="36.6" height="12.432" depth="6.98" valign="baseline" style="math">\xrightarrow[\phantom{aaaaaaa}]{\phantom{j^*}}</text>
+<text matrix="1 0 0 1 329.694 -2.71279" transformations="translations" pos="102.004 717.135" stroke="black" type="label" width="7.749" height="6.808" depth="0" valign="baseline" style="math">\Psi</text>
+<text matrix="1 0 0 1 443.33 -9.19479" transformations="translations" pos="102.004 717.135" stroke="black" type="label" width="7.749" height="6.808" depth="0" valign="baseline" style="math">\Psi</text>
+</page>
+</ipe>
