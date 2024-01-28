@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE ipe SYSTEM "ipe.dtd">
 <ipe version="70218" creator="Ipe 7.2.28">
-<info created="D:20130404105003" modified="D:20240128120028"/>
+<info created="D:20130404105003" modified="D:20240128173215"/>
 <ipestyle name="tungsteno">
 <symbol name="arrow/arc(spx)">
 <path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
@@ -421,6 +421,9 @@ h
 <dashstyle name="dash dotted" value="[4 2 1 2] 0"/>
 <dashstyle name="dashed" value="[4] 0"/>
 <dashstyle name="dotted" value="[1 3] 0"/>
+<dashstyle name="large dashed" value="[12] 0"/>
+<dashstyle name="large dotted" value="[2 4] 0"/>
+<dashstyle name="medium dashed" value="[8] 0"/>
 <gridsize name="10 pts (~3.5 mm)" value="10"/>
 <gridsize name="14 pts (~5 mm)" value="14"/>
 <gridsize name="16 pts (~6 mm)" value="16"/>
