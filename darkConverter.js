@@ -318,15 +318,28 @@ for (const color in mdColor) {
   const w800 = hex2rgb(colors['w800']);
   const w900 = hex2rgb(colors['w900']);
 
-  CHANGES[w100] = w900;
-  CHANGES[w200] = w800;
-  CHANGES[w300] = w700;
-  CHANGES[w400] = w600;
-  CHANGES[w500] = w500;
-  CHANGES[w600] = w400;
-  CHANGES[w700] = w300;
-  CHANGES[w800] = w200;
-  CHANGES[w900] = w100;
+  if (color == 'gray') {
+    CHANGES[w100] = w800;
+    CHANGES[w200] = w700;
+    CHANGES[w300] = w600;
+    CHANGES[w400] = w500;
+    CHANGES[w500] = w400;
+    CHANGES[w600] = w300;
+    CHANGES[w700] = w200;
+    CHANGES[w800] = w100;
+    CHANGES[w900] = w100;
+  } else {
+    CHANGES[w100] = w900;
+    CHANGES[w200] = w800;
+    CHANGES[w300] = w700;
+    CHANGES[w400] = w600;
+    CHANGES[w500] = w500;
+    CHANGES[w600] = w400;
+    CHANGES[w700] = w300;
+    CHANGES[w800] = w200;
+    CHANGES[w900] = w100;
+  }
+
 };
 
 const invertSVG = svg => svg.replaceAll(/rgb\(([0-9.,%]+)\)/g,
