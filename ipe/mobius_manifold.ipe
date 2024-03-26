@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <!DOCTYPE ipe SYSTEM "ipe.dtd">
-<ipe version="70206" creator="Ipe 7.2.7">
-<info created="D:20130414173127" modified="D:20190210125229"/>
-<bitmap id="1" width="504" height="555" length="28995" ColorSpace="DeviceRGB" Filter="DCTDecode" BitsPerComponent="8" encoding="base64">
+<ipe version="70218" creator="Ipe 7.2.28">
+<info created="D:20130414173127" modified="D:20240326163052"/>
+<bitmap id="1" width="504" height="555" BitsPerComponent="8" ColorSpace="DeviceRGB" Filter="DCTDecode" length="28995" encoding="base64">
 /9j/4AAQSkZJRgABAQEAYABgAAD/4QA6RXhpZgAATU0AKgAAAAgAA1EQAAEAAAABAQAAAFER
 AAQAAAABAAAAAFESAAQAAAABAAAAAAAAAAD/2wBDAAIBAQIBAQICAgICAgICAwUDAwMDAwYE
 BAMFBwYHBwcGBwcICQsJCAgKCAcHCg0KCgsMDAwMBwkODw0MDgsMDAz/2wBDAQICAgMDAwYD
@@ -701,29 +701,16 @@ h
 h
 </path>
 </symbol>
-<pen name="heavier" value="0.8"/>
-<pen name="fat" value="1.2"/>
-<pen name="ultrafat" value="2"/>
-<symbolsize name="large" value="5"/>
-<symbolsize name="small" value="2"/>
-<symbolsize name="tiny" value="1.1"/>
+<anglesize name="22.5 deg" value="22.5"/>
+<anglesize name="30 deg" value="30"/>
+<anglesize name="45 deg" value="45"/>
+<anglesize name="60 deg" value="60"/>
+<anglesize name="90 deg" value="90"/>
 <arrowsize name="large" value="10"/>
 <arrowsize name="small" value="5"/>
 <arrowsize name="tiny" value="3"/>
-<color name="red" value="1 0 0"/>
-<color name="green" value="0 1 0"/>
 <color name="blue" value="0 0 1"/>
-<color name="yellow" value="1 1 0"/>
-<color name="orange" value="1 0.647 0"/>
-<color name="gold" value="1 0.843 0"/>
-<color name="purple" value="0.627 0.125 0.941"/>
-<color name="gray" value="0.745"/>
 <color name="brown" value="0.647 0.165 0.165"/>
-<color name="navy" value="0 0 0.502"/>
-<color name="pink" value="1 0.753 0.796"/>
-<color name="seagreen" value="0.18 0.545 0.341"/>
-<color name="turquoise" value="0.251 0.878 0.816"/>
-<color name="violet" value="0.933 0.51 0.933"/>
 <color name="darkblue" value="0 0 0.545"/>
 <color name="darkcyan" value="0 0.545 0.545"/>
 <color name="darkgray" value="0.663"/>
@@ -731,40 +718,53 @@ h
 <color name="darkmagenta" value="0.545 0 0.545"/>
 <color name="darkorange" value="1 0.549 0"/>
 <color name="darkred" value="0.545 0 0"/>
+<color name="gold" value="1 0.843 0"/>
+<color name="gray" value="0.745"/>
+<color name="green" value="0 1 0"/>
 <color name="lightblue" value="0.678 0.847 0.902"/>
 <color name="lightcyan" value="0.878 1 1"/>
 <color name="lightgray" value="0.827"/>
 <color name="lightgreen" value="0.565 0.933 0.565"/>
 <color name="lightyellow" value="1 1 0.878"/>
+<color name="navy" value="0 0 0.502"/>
+<color name="orange" value="1 0.647 0"/>
+<color name="pink" value="1 0.753 0.796"/>
+<color name="purple" value="0.627 0.125 0.941"/>
+<color name="red" value="1 0 0"/>
+<color name="seagreen" value="0.18 0.545 0.341"/>
+<color name="turquoise" value="0.251 0.878 0.816"/>
+<color name="violet" value="0.933 0.51 0.933"/>
+<color name="yellow" value="1 1 0"/>
+<dashstyle name="dash dot dotted" value="[4 2 1 2 1 2] 0"/>
+<dashstyle name="dash dotted" value="[4 2 1 2] 0"/>
 <dashstyle name="dashed" value="[4] 0"/>
 <dashstyle name="dotted" value="[1 3] 0"/>
-<dashstyle name="dash dotted" value="[4 2 1 2] 0"/>
-<dashstyle name="dash dot dotted" value="[4 2 1 2 1 2] 0"/>
-<textsize name="large" value="\large"/>
-<textsize name="Large" value="\Large"/>
-<textsize name="LARGE" value="\LARGE"/>
-<textsize name="huge" value="\huge"/>
+<gridsize name="10 pts (~3.5 mm)" value="10"/>
+<gridsize name="14 pts (~5 mm)" value="14"/>
+<gridsize name="16 pts (~6 mm)" value="16"/>
+<gridsize name="20 pts (~7 mm)" value="20"/>
+<gridsize name="28 pts (~10 mm)" value="28"/>
+<gridsize name="32 pts (~12 mm)" value="32"/>
+<gridsize name="4 pts" value="4"/>
+<gridsize name="56 pts (~20 mm)" value="56"/>
+<gridsize name="8 pts (~3 mm)" value="8"/>
+<pen name="fat" value="1.2"/>
+<pen name="heavier" value="0.8"/>
+<pen name="ultrafat" value="2"/>
+<symbolsize name="large" value="5"/>
+<symbolsize name="small" value="2"/>
+<symbolsize name="tiny" value="1.1"/>
 <textsize name="Huge" value="\Huge"/>
-<textsize name="small" value="\small"/>
+<textsize name="LARGE" value="\LARGE"/>
+<textsize name="Large" value="\Large"/>
 <textsize name="footnote" value="\footnotesize"/>
+<textsize name="huge" value="\huge"/>
+<textsize name="large" value="\large"/>
+<textsize name="small" value="\small"/>
 <textsize name="tiny" value="\tiny"/>
 <textstyle name="center" begin="\begin{center}" end="\end{center}"/>
-<textstyle name="itemize" begin="\begin{itemize}" end="\end{itemize}"/>
 <textstyle name="item" begin="\begin{itemize}\item{}" end="\end{itemize}"/>
-<gridsize name="4 pts" value="4"/>
-<gridsize name="8 pts (~3 mm)" value="8"/>
-<gridsize name="16 pts (~6 mm)" value="16"/>
-<gridsize name="32 pts (~12 mm)" value="32"/>
-<gridsize name="10 pts (~3.5 mm)" value="10"/>
-<gridsize name="20 pts (~7 mm)" value="20"/>
-<gridsize name="14 pts (~5 mm)" value="14"/>
-<gridsize name="28 pts (~10 mm)" value="28"/>
-<gridsize name="56 pts (~20 mm)" value="56"/>
-<anglesize name="90 deg" value="90"/>
-<anglesize name="60 deg" value="60"/>
-<anglesize name="45 deg" value="45"/>
-<anglesize name="30 deg" value="30"/>
-<anglesize name="22.5 deg" value="22.5"/>
+<textstyle name="itemize" begin="\begin{itemize}" end="\end{itemize}"/>
 <tiling name="falling" angle="-60" step="4" width="1"/>
 <tiling name="rising" angle="30" step="4" width="1"/>
 </ipestyle>
@@ -928,29 +928,18 @@ h
 h
 </path>
 </symbol>
-<pen name="heavier" value="0.8"/>
-<pen name="fat" value="1.2"/>
-<pen name="ultrafat" value="2"/>
-<symbolsize name="large" value="5"/>
-<symbolsize name="small" value="2"/>
-<symbolsize name="tiny" value="1.1"/>
+<anglesize name="22.5 deg" value="22.5"/>
+<anglesize name="30 deg" value="30"/>
+<anglesize name="45 deg" value="45"/>
+<anglesize name="60 deg" value="60"/>
+<anglesize name="90 deg" value="90"/>
 <arrowsize name="large" value="10"/>
 <arrowsize name="small" value="5"/>
 <arrowsize name="tiny" value="3"/>
-<color name="red" value="1 0 0"/>
-<color name="green" value="0 1 0"/>
+<color name="amarillo" value="0.957 0.969 0.714"/>
+<color name="azul" value="0.237 0.659 0.659"/>
 <color name="blue" value="0 0 1"/>
-<color name="yellow" value="1 1 0"/>
-<color name="orange" value="1 0.647 0"/>
-<color name="gold" value="1 0.843 0"/>
-<color name="purple" value="0.627 0.125 0.941"/>
-<color name="gray" value="0.745"/>
 <color name="brown" value="0.647 0.165 0.165"/>
-<color name="navy" value="0 0 0.502"/>
-<color name="pink" value="1 0.753 0.796"/>
-<color name="seagreen" value="0.18 0.545 0.341"/>
-<color name="turquoise" value="0.251 0.878 0.816"/>
-<color name="violet" value="0.933 0.51 0.933"/>
 <color name="darkblue" value="0 0 0.545"/>
 <color name="darkcyan" value="0 0.545 0.545"/>
 <color name="darkgray" value="0.663"/>
@@ -958,95 +947,74 @@ h
 <color name="darkmagenta" value="0.545 0 0.545"/>
 <color name="darkorange" value="1 0.549 0"/>
 <color name="darkred" value="0.545 0 0"/>
+<color name="gold" value="1 0.843 0"/>
+<color name="gray" value="0.745"/>
+<color name="gray7" value="0.87"/>
+<color name="green" value="0 1 0"/>
 <color name="lightblue" value="0.678 0.847 0.902"/>
 <color name="lightcyan" value="0.878 1 1"/>
 <color name="lightgray" value="0.827"/>
 <color name="lightgreen" value="0.565 0.933 0.565"/>
 <color name="lightyellow" value="1 1 0.878"/>
-<color name="gray7" value="0.87"/>
-<color name="azul" value="0.237 0.659 0.659"/>
-<color name="amarillo" value="0.957 0.969 0.714"/>
+<color name="navy" value="0 0 0.502"/>
+<color name="orange" value="1 0.647 0"/>
+<color name="pink" value="1 0.753 0.796"/>
+<color name="purple" value="0.627 0.125 0.941"/>
+<color name="red" value="1 0 0"/>
+<color name="seagreen" value="0.18 0.545 0.341"/>
+<color name="turquoise" value="0.251 0.878 0.816"/>
+<color name="violet" value="0.933 0.51 0.933"/>
+<color name="yellow" value="1 1 0"/>
+<dashstyle name="Large dashed" value="[16] 0"/>
+<dashstyle name="dash dot dotted" value="[4 2 1 2 1 2] 0"/>
+<dashstyle name="dash dotted" value="[4 2 1 2] 0"/>
 <dashstyle name="dashed" value="[4] 0"/>
 <dashstyle name="dotted" value="[1 3] 0"/>
-<dashstyle name="dash dotted" value="[4 2 1 2] 0"/>
-<dashstyle name="dash dot dotted" value="[4 2 1 2 1 2] 0"/>
-<dashstyle name="medium dashed" value="[8] 0"/>
 <dashstyle name="large dashed" value="[12] 0"/>
 <dashstyle name="large dotted" value="[2 4] 0"/>
-<dashstyle name="Large dashed" value="[16] 0"/>
-<textsize name="large" value="\large"/>
-<textsize name="Large" value="\Large"/>
-<textsize name="LARGE" value="\LARGE"/>
-<textsize name="huge" value="\huge"/>
-<textsize name="Huge" value="\Huge"/>
-<textsize name="small" value="\small"/>
-<textsize name="footnote" value="\footnotesize"/>
-<textsize name="tiny" value="\tiny"/>
-<textstyle name="center" begin="\begin{center}" end="\end{center}"/>
-<textstyle name="itemize" begin="\begin{itemize}" end="\end{itemize}"/>
-<textstyle name="item" begin="\begin{itemize}\item{}" end="\end{itemize}"/>
-<gridsize name="4 pts" value="4"/>
-<gridsize name="8 pts (~3 mm)" value="8"/>
-<gridsize name="16 pts (~6 mm)" value="16"/>
-<gridsize name="32 pts (~12 mm)" value="32"/>
+<dashstyle name="medium dashed" value="[8] 0"/>
 <gridsize name="10 pts (~3.5 mm)" value="10"/>
-<gridsize name="20 pts (~7 mm)" value="20"/>
 <gridsize name="14 pts (~5 mm)" value="14"/>
+<gridsize name="16 pts (~6 mm)" value="16"/>
+<gridsize name="20 pts (~7 mm)" value="20"/>
 <gridsize name="28 pts (~10 mm)" value="28"/>
+<gridsize name="32 pts (~12 mm)" value="32"/>
+<gridsize name="4 pts" value="4"/>
 <gridsize name="56 pts (~20 mm)" value="56"/>
-<anglesize name="90 deg" value="90"/>
-<anglesize name="60 deg" value="60"/>
-<anglesize name="45 deg" value="45"/>
-<anglesize name="30 deg" value="30"/>
-<anglesize name="22.5 deg" value="22.5"/>
+<gridsize name="8 pts (~3 mm)" value="8"/>
 <opacity name="10%" value="0.1"/>
-<opacity name="30%" value="0.3"/>
-<opacity name="50%" value="0.5"/>
 <opacity name="20%" value="0.2"/>
+<opacity name="30%" value="0.3"/>
 <opacity name="40%" value="0.4"/>
+<opacity name="50%" value="0.5"/>
 <opacity name="60%" value="0.6"/>
 <opacity name="70%" value="0.7"/>
 <opacity name="80%" value="0.8"/>
 <opacity name="90%" value="0.9"/>
+<pen name="fat" value="1.2"/>
+<pen name="heavier" value="0.8"/>
+<pen name="ultrafat" value="2"/>
+<symbolsize name="large" value="5"/>
+<symbolsize name="small" value="2"/>
+<symbolsize name="tiny" value="1.1"/>
+<textsize name="Huge" value="\Huge"/>
+<textsize name="LARGE" value="\LARGE"/>
+<textsize name="Large" value="\Large"/>
+<textsize name="footnote" value="\footnotesize"/>
+<textsize name="huge" value="\huge"/>
+<textsize name="large" value="\large"/>
+<textsize name="small" value="\small"/>
+<textsize name="tiny" value="\tiny"/>
+<textstyle name="center" begin="\begin{center}" end="\end{center}"/>
+<textstyle name="item" begin="\begin{itemize}\item{}" end="\end{itemize}"/>
+<textstyle name="itemize" begin="\begin{itemize}" end="\end{itemize}"/>
 <tiling name="falling" angle="-60" step="4" width="1"/>
 <tiling name="rising" angle="30" step="4" width="1"/>
 </ipestyle>
 <page>
 <layer name="alpha"/>
 <view layers="alpha" active="alpha"/>
-<group layer="alpha" clip="162.35 384.34
-168.699 380.39
-181.021 374.237
-196.428 368.768
-210.22 365.713
-230.876 363.878
-252.895 364.655
-272.483 367.714
-291.039 373.05
-312.353 382.289
-327.744 391.757
-341.266 402.972
-352.394 415.618
-361.399 432.573
-363.994 445.44
-363.161 456.127
-358.8 467.036
-350.825 476.163
-341.717 481.776
-330.44 485.513
-315.788 487.253
-294.483 485.913
-277.424 482.55
-258.64 476.399
-240.745 467.778
-225.451 458.407
-214.469 450.411
-201.087 438.894
-189.776 427.36
-180.943 416.925
-173.702 406.725
-166.924 394.338 u
-121.714 447.641
+<group layer="alpha" clip="121.714 447.641
 131.287 407.297
 139.493 367.637
 149.968 307.866
@@ -1066,6 +1034,43 @@ h
 154.536 545.423
 131.287 506.446
 121.714 470.889 u
+164.165 385.391
+166.032 392.169
+171.705 402.895
+178.104 412.824
+186.091 422.928
+195.038 432.654
+206.773 443.711
+221.926 455.744
+239.962 466.988
+254.493 474.181
+270.397 480.133
+287.583 484.427
+304.123 486.416
+323.147 486.251
+338.306 482.739
+349.18 476.771
+357.336 468.071
+361.949 458.434
+363.115 442.248
+359.672 430.27
+354.814 420.709
+348.259 411.244
+341.579 403.906
+329.6 393.634
+319.905 387.076
+308.886 381.091
+293.679 374.515
+280.704 370.197
+263.322 366.39
+249.055 364.752
+234.771 364.261
+220.478 364.896
+209.588 366.181
+199.519 368.244
+182.984 373.754
+172.879 378.356
+164.984 383.385 u
 ">
 <image rect="108.5 212.875 486.5 629.125" bitmap="1"/>
 </group>
