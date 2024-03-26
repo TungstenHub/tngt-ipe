@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="102pt" height="6pt" viewBox="0 0 102 6" version="1.1">
+<g id="surface54058">
+<path style=" stroke:none;fill-rule:evenodd;fill:rgb(100%,100%,100%);fill-opacity:1;" d="M 4.800781 3 C 4.800781 0.601562 1.199219 0.601562 1.199219 3 C 1.199219 5.398438 4.800781 5.398438 4.800781 3 Z M 4.800781 3 "/>
+<path style=" stroke:none;fill-rule:evenodd;fill:rgb(100%,100%,100%);fill-opacity:1;" d="M 36.800781 3 C 36.800781 0.601562 33.199219 0.601562 33.199219 3 C 33.199219 5.398438 36.800781 5.398438 36.800781 3 Z M 36.800781 3 "/>
+<path style=" stroke:none;fill-rule:evenodd;fill:rgb(100%,100%,100%);fill-opacity:1;" d="M 68.800781 3 C 68.800781 0.601562 65.199219 0.601562 65.199219 3 C 65.199219 5.398438 68.800781 5.398438 68.800781 3 Z M 68.800781 3 "/>
+<path style=" stroke:none;fill-rule:evenodd;fill:rgb(100%,100%,100%);fill-opacity:1;" d="M 100.800781 3 C 100.800781 0.601562 97.199219 0.601562 97.199219 3 C 97.199219 5.398438 100.800781 5.398438 100.800781 3 Z M 100.800781 3 "/>
+<path style="fill:none;stroke-width:0.8;stroke-linecap:butt;stroke-linejoin:round;stroke:rgb(100%,100%,100%);stroke-opacity:1;stroke-miterlimit:10;" d="M 68 704 L 92 704 " transform="matrix(1,0,0,-1,-61,707)"/>
+<path style="fill-rule:evenodd;fill:rgb(100%,100%,100%);fill-opacity:1;stroke-width:0.8;stroke-linecap:butt;stroke-linejoin:round;stroke:rgb(100%,100%,100%);stroke-opacity:1;stroke-miterlimit:10;" d="M 92 704 L 89 705 L 89 703 Z M 92 704 " transform="matrix(1,0,0,-1,-61,707)"/>
+<path style="fill:none;stroke-width:0.8;stroke-linecap:butt;stroke-linejoin:round;stroke:rgb(100%,100%,100%);stroke-opacity:1;stroke-miterlimit:10;" d="M 100 704 L 124 704 " transform="matrix(1,0,0,-1,-61,707)"/>
+<path style="fill-rule:evenodd;fill:rgb(100%,100%,100%);fill-opacity:1;stroke-width:0.8;stroke-linecap:butt;stroke-linejoin:round;stroke:rgb(100%,100%,100%);stroke-opacity:1;stroke-miterlimit:10;" d="M 124 704 L 121 705 L 121 703 Z M 124 704 " transform="matrix(1,0,0,-1,-61,707)"/>
+<path style="fill:none;stroke-width:0.8;stroke-linecap:butt;stroke-linejoin:round;stroke:rgb(100%,100%,100%);stroke-opacity:1;stroke-miterlimit:10;" d="M 132 704 L 156 704 " transform="matrix(1,0,0,-1,-61,707)"/>
+<path style="fill-rule:evenodd;fill:rgb(100%,100%,100%);fill-opacity:1;stroke-width:0.8;stroke-linecap:butt;stroke-linejoin:round;stroke:rgb(100%,100%,100%);stroke-opacity:1;stroke-miterlimit:10;" d="M 156 704 L 153 705 L 153 703 Z M 156 704 " transform="matrix(1,0,0,-1,-61,707)"/>
+</g>
+</svg>
