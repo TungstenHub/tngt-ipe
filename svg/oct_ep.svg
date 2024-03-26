@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="65pt" height="65pt" viewBox="0 0 65 65" version="1.1">
-<g id="surface127593">
-<path style=" stroke:none;fill-rule:evenodd;fill:rgb(29.4%,66.7%,78.8%);fill-opacity:1;" d="M 25.492188 39.957031 L 29.800781 52.882812 L 10.984375 30.8125 Z M 25.492188 39.957031 "/>
-<path style=" stroke:none;fill-rule:evenodd;fill:rgb(18%,49%,59.6%);fill-opacity:1;" d="M 53.015625 35.296875 L 29.800781 52.882812 L 25.492188 39.957031 Z M 53.015625 35.296875 "/>
-<path style=" stroke:none;fill-rule:evenodd;fill:rgb(22.7%,63.9%,77.3%);fill-opacity:1;" d="M 25.492188 39.957031 L 32.351562 11.117188 L 53.015625 35.296875 Z M 25.492188 39.957031 "/>
-<path style=" stroke:none;fill-rule:evenodd;fill:rgb(52.5%,77.6%,85.9%);fill-opacity:1;" d="M 10.984375 30.8125 L 32.351562 11.117188 L 25.492188 39.957031 Z M 10.984375 30.8125 "/>
+<g id="surface50673">
+<path style=" stroke:none;fill-rule:evenodd;fill:rgb(0%,73.7%,83.1%);fill-opacity:0.6;" d="M 25.492188 39.957031 L 29.800781 52.882812 L 10.984375 30.8125 Z M 25.492188 39.957031 "/>
+<path style=" stroke:none;fill-rule:evenodd;fill:rgb(0%,73.7%,83.1%);fill-opacity:0.7;" d="M 53.015625 35.296875 L 29.800781 52.882812 L 25.492188 39.957031 Z M 53.015625 35.296875 "/>
+<path style=" stroke:none;fill-rule:evenodd;fill:rgb(0%,73.7%,83.1%);fill-opacity:0.5;" d="M 25.492188 39.957031 L 32.351562 11.117188 L 53.015625 35.296875 Z M 25.492188 39.957031 "/>
+<path style=" stroke:none;fill-rule:evenodd;fill:rgb(0%,73.7%,83.1%);fill-opacity:0.4;" d="M 10.984375 30.8125 L 32.351562 11.117188 L 25.492188 39.957031 Z M 10.984375 30.8125 "/>
 <path style=" stroke:none;fill-rule:evenodd;fill:rgb(0%,0%,0%);fill-opacity:1;" d="M 35.351562 11.117188 C 35.351562 7.117188 29.351562 7.117188 29.351562 11.117188 C 29.351562 15.117188 35.351562 15.117188 35.351562 11.117188 Z M 35.351562 11.117188 "/>
 <path style=" stroke:none;fill-rule:evenodd;fill:rgb(0%,0%,0%);fill-opacity:1;" d="M 56.015625 35.296875 C 56.015625 31.296875 50.015625 31.296875 50.015625 35.296875 C 50.015625 39.296875 56.015625 39.296875 56.015625 35.296875 Z M 56.015625 35.296875 "/>
 <path style=" stroke:none;fill-rule:evenodd;fill:rgb(0%,0%,0%);fill-opacity:1;" d="M 37.902344 28.613281 C 37.902344 24.613281 31.902344 24.613281 31.902344 28.613281 C 31.902344 32.613281 37.902344 32.613281 37.902344 28.613281 Z M 37.902344 28.613281 "/>
