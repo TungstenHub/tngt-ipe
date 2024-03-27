@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <!DOCTYPE ipe SYSTEM "ipe.dtd">
-<ipe version="70206" creator="Ipe 7.2.7">
-<info created="D:20130416180105" modified="D:20180826122818"/>
-<ipestyle name="basic">
+<ipe version="70218" creator="Ipe 7.2.28">
+<info created="D:20130416180105" modified="D:20240327092057"/>
+<ipestyle name="tungsteno">
 <symbol name="arrow/arc(spx)">
 <path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
 0 0 m
@@ -15,6 +15,24 @@ h
 <path stroke="sym-stroke" fill="white" pen="sym-pen">
 0 0 m
 -1 0.333 l
+-1 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="arrow/ptarc(spx)">
+<path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
+0 0 m
+-1 0.333 l
+-0.8 0 l
+-1 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="arrow/fptarc(spx)">
+<path stroke="sym-stroke" fill="white" pen="sym-pen">
+0 0 m
+-1 0.333 l
+-0.8 0 l
 -1 -0.333 l
 h
 </path>
@@ -162,320 +180,290 @@ h
 h
 </path>
 </symbol>
-<pen name="heavier" value="0.8"/>
-<pen name="fat" value="1.2"/>
-<pen name="ultrafat" value="2"/>
-<symbolsize name="large" value="5"/>
-<symbolsize name="small" value="2"/>
-<symbolsize name="tiny" value="1.1"/>
+<symbol name="arrow/mid-normal(spx)">
+<path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
+0.5 0 m
+-0.5 0.333 l
+-0.5 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="arrow/mid-fnormal(spx)">
+<path stroke="sym-stroke" fill="white" pen="sym-pen">
+0.5 0 m
+-0.5 0.333 l
+-0.5 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="arrow/mid-pointed(spx)">
+<path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
+0.5 0 m
+-0.5 0.333 l
+-0.3 0 l
+-0.5 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="arrow/mid-fpointed(spx)">
+<path stroke="sym-stroke" fill="white" pen="sym-pen">
+0.5 0 m
+-0.5 0.333 l
+-0.3 0 l
+-0.5 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="arrow/mid-double(spx)">
+<path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
+1 0 m
+0 0.333 l
+0 -0.333 l
+h
+0 0 m
+-1 0.333 l
+-1 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="arrow/mid-fdouble(spx)">
+<path stroke="sym-stroke" fill="white" pen="sym-pen">
+1 0 m
+0 0.333 l
+0 -0.333 l
+h
+0 0 m
+-1 0.333 l
+-1 -0.333 l
+h
+</path>
+</symbol>
+<anglesize name="22.5 deg" value="22.5"/>
+<anglesize name="30 deg" value="30"/>
+<anglesize name="45 deg" value="45"/>
+<anglesize name="60 deg" value="60"/>
+<anglesize name="90 deg" value="90"/>
 <arrowsize name="large" value="10"/>
 <arrowsize name="small" value="5"/>
 <arrowsize name="tiny" value="3"/>
-<color name="red" value="1 0 0"/>
-<color name="green" value="0 1 0"/>
-<color name="blue" value="0 0 1"/>
-<color name="yellow" value="1 1 0"/>
-<color name="orange" value="1 0.647 0"/>
-<color name="gold" value="1 0.843 0"/>
-<color name="purple" value="0.627 0.125 0.941"/>
-<color name="gray" value="0.745"/>
-<color name="brown" value="0.647 0.165 0.165"/>
-<color name="navy" value="0 0 0.502"/>
-<color name="pink" value="1 0.753 0.796"/>
-<color name="seagreen" value="0.18 0.545 0.341"/>
-<color name="turquoise" value="0.251 0.878 0.816"/>
-<color name="violet" value="0.933 0.51 0.933"/>
-<color name="darkblue" value="0 0 0.545"/>
-<color name="darkcyan" value="0 0.545 0.545"/>
-<color name="darkgray" value="0.663"/>
-<color name="darkgreen" value="0 0.392 0"/>
-<color name="darkmagenta" value="0.545 0 0.545"/>
-<color name="darkorange" value="1 0.549 0"/>
-<color name="darkred" value="0.545 0 0"/>
-<color name="lightblue" value="0.678 0.847 0.902"/>
-<color name="lightcyan" value="0.878 1 1"/>
-<color name="lightgray" value="0.827"/>
-<color name="lightgreen" value="0.565 0.933 0.565"/>
-<color name="lightyellow" value="1 1 0.878"/>
+<color name="amber100" value="1 0.925 0.702"/>
+<color name="amber200" value="1 0.878 0.51"/>
+<color name="amber300" value="1 0.835 0.31"/>
+<color name="amber400" value="1 0.792 0.157"/>
+<color name="amber500" value="1 0.757 0.027"/>
+<color name="amber600" value="1 0.702 0"/>
+<color name="amber700" value="1 0.627 0"/>
+<color name="amber800" value="1 0.561 0"/>
+<color name="amber900" value="1 0.435 0"/>
+<color name="blue100" value="0.733 0.871 0.984"/>
+<color name="blue200" value="0.565 0.792 0.976"/>
+<color name="blue300" value="0.392 0.71 0.965"/>
+<color name="blue400" value="0.259 0.647 0.961"/>
+<color name="blue500" value="0.129 0.588 0.953"/>
+<color name="blue600" value="0.118 0.533 0.898"/>
+<color name="blue700" value="0.098 0.463 0.824"/>
+<color name="blue800" value="0.082 0.396 0.753"/>
+<color name="blue900" value="0.051 0.278 0.631"/>
+<color name="bluegray100" value="0.812 0.847 0.863"/>
+<color name="bluegray200" value="0.69 0.745 0.773"/>
+<color name="bluegray300" value="0.565 0.643 0.682"/>
+<color name="bluegray400" value="0.471 0.565 0.612"/>
+<color name="bluegray500" value="0.376 0.49 0.545"/>
+<color name="bluegray600" value="0.329 0.431 0.478"/>
+<color name="bluegray700" value="0.271 0.353 0.392"/>
+<color name="bluegray800" value="0.216 0.278 0.31"/>
+<color name="bluegray900" value="0.149 0.196 0.22"/>
+<color name="brown100" value="0.843 0.8 0.784"/>
+<color name="brown200" value="0.737 0.667 0.643"/>
+<color name="brown300" value="0.631 0.533 0.498"/>
+<color name="brown400" value="0.553 0.431 0.388"/>
+<color name="brown500" value="0.475 0.333 0.282"/>
+<color name="brown600" value="0.427 0.298 0.255"/>
+<color name="brown700" value="0.365 0.251 0.216"/>
+<color name="brown800" value="0.306 0.204 0.18"/>
+<color name="brown900" value="0.243 0.153 0.137"/>
+<color name="cyan100" value="0.698 0.922 0.949"/>
+<color name="cyan200" value="0.502 0.871 0.918"/>
+<color name="cyan300" value="0.302 0.816 0.882"/>
+<color name="cyan400" value="0.149 0.776 0.855"/>
+<color name="cyan500" value="0 0.737 0.831"/>
+<color name="cyan600" value="0 0.675 0.757"/>
+<color name="cyan700" value="0 0.592 0.655"/>
+<color name="cyan800" value="0 0.514 0.561"/>
+<color name="cyan900" value="0 0.376 0.392"/>
+<color name="deeporange100" value="1 0.8 0.737"/>
+<color name="deeporange200" value="1 0.671 0.569"/>
+<color name="deeporange300" value="1 0.541 0.396"/>
+<color name="deeporange400" value="1 0.439 0.263"/>
+<color name="deeporange500" value="1 0.341 0.133"/>
+<color name="deeporange600" value="0.957 0.318 0.118"/>
+<color name="deeporange700" value="0.902 0.29 0.098"/>
+<color name="deeporange800" value="0.847 0.263 0.082"/>
+<color name="deeporange900" value="0.749 0.212 0.047"/>
+<color name="deeppurple100" value="0.82 0.769 0.914"/>
+<color name="deeppurple200" value="0.702 0.616 0.859"/>
+<color name="deeppurple300" value="0.584 0.459 0.804"/>
+<color name="deeppurple400" value="0.494 0.341 0.761"/>
+<color name="deeppurple500" value="0.404 0.227 0.718"/>
+<color name="deeppurple600" value="0.369 0.208 0.694"/>
+<color name="deeppurple700" value="0.318 0.176 0.659"/>
+<color name="deeppurple800" value="0.271 0.153 0.627"/>
+<color name="deeppurple900" value="0.192 0.106 0.573"/>
+<color name="gray100" value="0.961"/>
+<color name="gray200" value="0.933"/>
+<color name="gray300" value="0.878"/>
+<color name="gray400" value="0.741"/>
+<color name="gray500" value="0.62"/>
+<color name="gray600" value="0.459"/>
+<color name="gray700" value="0.38"/>
+<color name="gray800" value="0.259"/>
+<color name="gray900" value="0.129"/>
+<color name="green100" value="0.784 0.902 0.788"/>
+<color name="green200" value="0.647 0.839 0.655"/>
+<color name="green300" value="0.506 0.78 0.518"/>
+<color name="green400" value="0.4 0.733 0.416"/>
+<color name="green500" value="0.298 0.686 0.314"/>
+<color name="green600" value="0.263 0.627 0.278"/>
+<color name="green700" value="0.22 0.557 0.235"/>
+<color name="green800" value="0.18 0.49 0.196"/>
+<color name="green900" value="0.106 0.369 0.125"/>
+<color name="indigo100" value="0.773 0.792 0.914"/>
+<color name="indigo200" value="0.624 0.659 0.855"/>
+<color name="indigo300" value="0.475 0.525 0.796"/>
+<color name="indigo400" value="0.361 0.42 0.753"/>
+<color name="indigo500" value="0.247 0.318 0.71"/>
+<color name="indigo600" value="0.224 0.286 0.671"/>
+<color name="indigo700" value="0.188 0.247 0.624"/>
+<color name="indigo800" value="0.157 0.208 0.576"/>
+<color name="indigo900" value="0.102 0.137 0.494"/>
+<color name="lightblue100" value="0.702 0.898 0.988"/>
+<color name="lightblue200" value="0.506 0.831 0.98"/>
+<color name="lightblue300" value="0.31 0.765 0.969"/>
+<color name="lightblue400" value="0.161 0.714 0.965"/>
+<color name="lightblue500" value="0.012 0.663 0.957"/>
+<color name="lightblue600" value="0.012 0.608 0.898"/>
+<color name="lightblue700" value="0.008 0.533 0.82"/>
+<color name="lightblue800" value="0.008 0.467 0.741"/>
+<color name="lightblue900" value="0.004 0.341 0.608"/>
+<color name="lightgreen100" value="0.863 0.929 0.784"/>
+<color name="lightgreen200" value="0.773 0.882 0.647"/>
+<color name="lightgreen300" value="0.682 0.835 0.506"/>
+<color name="lightgreen400" value="0.612 0.8 0.396"/>
+<color name="lightgreen500" value="0.545 0.765 0.29"/>
+<color name="lightgreen600" value="0.486 0.702 0.259"/>
+<color name="lightgreen700" value="0.408 0.624 0.22"/>
+<color name="lightgreen800" value="0.333 0.545 0.184"/>
+<color name="lightgreen900" value="0.2 0.412 0.118"/>
+<color name="lime100" value="0.941 0.957 0.765"/>
+<color name="lime200" value="0.902 0.933 0.612"/>
+<color name="lime300" value="0.863 0.906 0.459"/>
+<color name="lime400" value="0.831 0.882 0.341"/>
+<color name="lime500" value="0.804 0.863 0.224"/>
+<color name="lime600" value="0.753 0.792 0.2"/>
+<color name="lime700" value="0.686 0.706 0.169"/>
+<color name="lime800" value="0.62 0.616 0.141"/>
+<color name="lime900" value="0.51 0.467 0.09"/>
+<color name="orange100" value="1 0.878 0.698"/>
+<color name="orange200" value="1 0.8 0.502"/>
+<color name="orange300" value="1 0.718 0.302"/>
+<color name="orange400" value="1 0.655 0.149"/>
+<color name="orange500" value="1 0.596 0"/>
+<color name="orange600" value="0.984 0.549 0"/>
+<color name="orange700" value="0.961 0.486 0"/>
+<color name="orange800" value="0.937 0.424 0"/>
+<color name="orange900" value="0.902 0.318 0"/>
+<color name="pink100" value="0.973 0.733 0.816"/>
+<color name="pink200" value="0.957 0.561 0.694"/>
+<color name="pink300" value="0.941 0.384 0.573"/>
+<color name="pink400" value="0.925 0.251 0.478"/>
+<color name="pink500" value="0.914 0.118 0.388"/>
+<color name="pink600" value="0.847 0.106 0.376"/>
+<color name="pink700" value="0.761 0.094 0.357"/>
+<color name="pink800" value="0.678 0.078 0.341"/>
+<color name="pink900" value="0.533 0.055 0.31"/>
+<color name="purple100" value="0.882 0.745 0.906"/>
+<color name="purple200" value="0.808 0.576 0.847"/>
+<color name="purple300" value="0.729 0.408 0.784"/>
+<color name="purple400" value="0.671 0.278 0.737"/>
+<color name="purple500" value="0.612 0.153 0.69"/>
+<color name="purple600" value="0.557 0.141 0.667"/>
+<color name="purple700" value="0.482 0.122 0.635"/>
+<color name="purple800" value="0.416 0.106 0.604"/>
+<color name="purple900" value="0.29 0.078 0.549"/>
+<color name="red100" value="1 0.804 0.824"/>
+<color name="red200" value="0.937 0.604 0.604"/>
+<color name="red300" value="0.898 0.451 0.451"/>
+<color name="red400" value="0.937 0.325 0.314"/>
+<color name="red500" value="0.957 0.263 0.212"/>
+<color name="red600" value="0.898 0.224 0.208"/>
+<color name="red700" value="0.827 0.184 0.184"/>
+<color name="red800" value="0.776 0.157 0.157"/>
+<color name="red900" value="0.718 0.11 0.11"/>
+<color name="teal100" value="0.698 0.875 0.859"/>
+<color name="teal200" value="0.502 0.796 0.769"/>
+<color name="teal300" value="0.302 0.714 0.675"/>
+<color name="teal400" value="0.149 0.651 0.604"/>
+<color name="teal500" value="0 0.588 0.533"/>
+<color name="teal600" value="0 0.537 0.482"/>
+<color name="teal700" value="0 0.475 0.42"/>
+<color name="teal800" value="0 0.412 0.361"/>
+<color name="teal900" value="0 0.302 0.251"/>
+<color name="yellow100" value="1 0.976 0.769"/>
+<color name="yellow200" value="1 0.961 0.616"/>
+<color name="yellow300" value="1 0.945 0.463"/>
+<color name="yellow400" value="1 0.933 0.345"/>
+<color name="yellow500" value="1 0.922 0.231"/>
+<color name="yellow600" value="0.992 0.847 0.208"/>
+<color name="yellow700" value="0.984 0.753 0.176"/>
+<color name="yellow800" value="0.976 0.659 0.145"/>
+<color name="yellow900" value="0.961 0.498 0.09"/>
+<dashstyle name="dash dot dotted" value="[4 2 1 2 1 2] 0"/>
+<dashstyle name="dash dotted" value="[4 2 1 2] 0"/>
 <dashstyle name="dashed" value="[4] 0"/>
 <dashstyle name="dotted" value="[1 3] 0"/>
-<dashstyle name="dash dotted" value="[4 2 1 2] 0"/>
-<dashstyle name="dash dot dotted" value="[4 2 1 2 1 2] 0"/>
-<textsize name="large" value="\large"/>
-<textsize name="Large" value="\Large"/>
-<textsize name="LARGE" value="\LARGE"/>
-<textsize name="huge" value="\huge"/>
-<textsize name="Huge" value="\Huge"/>
-<textsize name="small" value="\small"/>
-<textsize name="footnote" value="\footnotesize"/>
-<textsize name="tiny" value="\tiny"/>
-<textstyle name="center" begin="\begin{center}" end="\end{center}"/>
-<textstyle name="itemize" begin="\begin{itemize}" end="\end{itemize}"/>
-<textstyle name="item" begin="\begin{itemize}\item{}" end="\end{itemize}"/>
-<gridsize name="4 pts" value="4"/>
-<gridsize name="8 pts (~3 mm)" value="8"/>
-<gridsize name="16 pts (~6 mm)" value="16"/>
-<gridsize name="32 pts (~12 mm)" value="32"/>
 <gridsize name="10 pts (~3.5 mm)" value="10"/>
-<gridsize name="20 pts (~7 mm)" value="20"/>
 <gridsize name="14 pts (~5 mm)" value="14"/>
-<gridsize name="28 pts (~10 mm)" value="28"/>
-<gridsize name="56 pts (~20 mm)" value="56"/>
-<anglesize name="90 deg" value="90"/>
-<anglesize name="60 deg" value="60"/>
-<anglesize name="45 deg" value="45"/>
-<anglesize name="30 deg" value="30"/>
-<anglesize name="22.5 deg" value="22.5"/>
-<tiling name="falling" angle="-60" step="4" width="1"/>
-<tiling name="rising" angle="30" step="4" width="1"/>
-</ipestyle>
-<ipestyle name="prueba">
-<symbol name="arrow/arc(spx)">
-<path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
-0 0 m
--1 0.333 l
--1 -0.333 l
-h
-</path>
-</symbol>
-<symbol name="arrow/farc(spx)">
-<path stroke="sym-stroke" fill="white" pen="sym-pen">
-0 0 m
--1 0.333 l
--1 -0.333 l
-h
-</path>
-</symbol>
-<symbol name="mark/circle(sx)" transformations="translations">
-<path fill="sym-stroke">
-0.6 0 0 0.6 0 0 e
-0.4 0 0 0.4 0 0 e
-</path>
-</symbol>
-<symbol name="mark/disk(sx)" transformations="translations">
-<path fill="sym-stroke">
-0.6 0 0 0.6 0 0 e
-</path>
-</symbol>
-<symbol name="mark/fdisk(sfx)" transformations="translations">
-<group>
-<path fill="sym-fill">
-0.5 0 0 0.5 0 0 e
-</path>
-<path fill="sym-stroke" fillrule="eofill">
-0.6 0 0 0.6 0 0 e
-0.4 0 0 0.4 0 0 e
-</path>
-</group>
-</symbol>
-<symbol name="mark/box(sx)" transformations="translations">
-<path fill="sym-stroke" fillrule="eofill">
--0.6 -0.6 m
-0.6 -0.6 l
-0.6 0.6 l
--0.6 0.6 l
-h
--0.4 -0.4 m
-0.4 -0.4 l
-0.4 0.4 l
--0.4 0.4 l
-h
-</path>
-</symbol>
-<symbol name="mark/square(sx)" transformations="translations">
-<path fill="sym-stroke">
--0.6 -0.6 m
-0.6 -0.6 l
-0.6 0.6 l
--0.6 0.6 l
-h
-</path>
-</symbol>
-<symbol name="mark/fsquare(sfx)" transformations="translations">
-<group>
-<path fill="sym-fill">
--0.5 -0.5 m
-0.5 -0.5 l
-0.5 0.5 l
--0.5 0.5 l
-h
-</path>
-<path fill="sym-stroke" fillrule="eofill">
--0.6 -0.6 m
-0.6 -0.6 l
-0.6 0.6 l
--0.6 0.6 l
-h
--0.4 -0.4 m
-0.4 -0.4 l
-0.4 0.4 l
--0.4 0.4 l
-h
-</path>
-</group>
-</symbol>
-<symbol name="mark/cross(sx)" transformations="translations">
-<group>
-<path fill="sym-stroke">
--0.43 -0.57 m
-0.57 0.43 l
-0.43 0.57 l
--0.57 -0.43 l
-h
-</path>
-<path fill="sym-stroke">
--0.43 0.57 m
-0.57 -0.43 l
-0.43 -0.57 l
--0.57 0.43 l
-h
-</path>
-</group>
-</symbol>
-<symbol name="arrow/fnormal(spx)">
-<path stroke="sym-stroke" fill="white" pen="sym-pen">
-0 0 m
--1 0.333 l
--1 -0.333 l
-h
-</path>
-</symbol>
-<symbol name="arrow/pointed(spx)">
-<path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
-0 0 m
--1 0.333 l
--0.8 0 l
--1 -0.333 l
-h
-</path>
-</symbol>
-<symbol name="arrow/fpointed(spx)">
-<path stroke="sym-stroke" fill="white" pen="sym-pen">
-0 0 m
--1 0.333 l
--0.8 0 l
--1 -0.333 l
-h
-</path>
-</symbol>
-<symbol name="arrow/linear(spx)">
-<path stroke="sym-stroke" pen="sym-pen">
--1 0.333 m
-0 0 l
--1 -0.333 l
-</path>
-</symbol>
-<symbol name="arrow/fdouble(spx)">
-<path stroke="sym-stroke" fill="white" pen="sym-pen">
-0 0 m
--1 0.333 l
--1 -0.333 l
-h
--1 0 m
--2 0.333 l
--2 -0.333 l
-h
-</path>
-</symbol>
-<symbol name="arrow/double(spx)">
-<path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
-0 0 m
--1 0.333 l
--1 -0.333 l
-h
--1 0 m
--2 0.333 l
--2 -0.333 l
-h
-</path>
-</symbol>
-<pen name="heavier" value="0.8"/>
-<pen name="fat" value="1.2"/>
-<pen name="ultrafat" value="2"/>
-<symbolsize name="large" value="5"/>
-<symbolsize name="small" value="2"/>
-<symbolsize name="tiny" value="1.1"/>
-<arrowsize name="large" value="10"/>
-<arrowsize name="small" value="5"/>
-<arrowsize name="tiny" value="3"/>
-<color name="red" value="1 0 0"/>
-<color name="green" value="0 1 0"/>
-<color name="blue" value="0 0 1"/>
-<color name="yellow" value="1 1 0"/>
-<color name="orange" value="1 0.647 0"/>
-<color name="gold" value="1 0.843 0"/>
-<color name="purple" value="0.627 0.125 0.941"/>
-<color name="gray" value="0.745"/>
-<color name="brown" value="0.647 0.165 0.165"/>
-<color name="navy" value="0 0 0.502"/>
-<color name="pink" value="1 0.753 0.796"/>
-<color name="seagreen" value="0.18 0.545 0.341"/>
-<color name="turquoise" value="0.251 0.878 0.816"/>
-<color name="violet" value="0.933 0.51 0.933"/>
-<color name="darkblue" value="0 0 0.545"/>
-<color name="darkcyan" value="0 0.545 0.545"/>
-<color name="darkgray" value="0.663"/>
-<color name="darkgreen" value="0 0.392 0"/>
-<color name="darkmagenta" value="0.545 0 0.545"/>
-<color name="darkorange" value="1 0.549 0"/>
-<color name="darkred" value="0.545 0 0"/>
-<color name="lightblue" value="0.678 0.847 0.902"/>
-<color name="lightcyan" value="0.878 1 1"/>
-<color name="lightgray" value="0.827"/>
-<color name="lightgreen" value="0.565 0.933 0.565"/>
-<color name="lightyellow" value="1 1 0.878"/>
-<color name="gray7" value="0.87"/>
-<color name="azul" value="0.237 0.659 0.659"/>
-<color name="amarillo" value="0.957 0.969 0.714"/>
-<dashstyle name="dashed" value="[4] 0"/>
-<dashstyle name="dotted" value="[1 3] 0"/>
-<dashstyle name="dash dotted" value="[4 2 1 2] 0"/>
-<dashstyle name="dash dot dotted" value="[4 2 1 2 1 2] 0"/>
-<dashstyle name="medium dashed" value="[8] 0"/>
-<dashstyle name="large dashed" value="[12] 0"/>
-<dashstyle name="large dotted" value="[2 4] 0"/>
-<dashstyle name="Large dashed" value="[16] 0"/>
-<textsize name="large" value="\large"/>
-<textsize name="Large" value="\Large"/>
-<textsize name="LARGE" value="\LARGE"/>
-<textsize name="huge" value="\huge"/>
-<textsize name="Huge" value="\Huge"/>
-<textsize name="small" value="\small"/>
-<textsize name="footnote" value="\footnotesize"/>
-<textsize name="tiny" value="\tiny"/>
-<textstyle name="center" begin="\begin{center}" end="\end{center}"/>
-<textstyle name="itemize" begin="\begin{itemize}" end="\end{itemize}"/>
-<textstyle name="item" begin="\begin{itemize}\item{}" end="\end{itemize}"/>
-<gridsize name="4 pts" value="4"/>
-<gridsize name="8 pts (~3 mm)" value="8"/>
 <gridsize name="16 pts (~6 mm)" value="16"/>
-<gridsize name="32 pts (~12 mm)" value="32"/>
-<gridsize name="10 pts (~3.5 mm)" value="10"/>
 <gridsize name="20 pts (~7 mm)" value="20"/>
-<gridsize name="14 pts (~5 mm)" value="14"/>
 <gridsize name="28 pts (~10 mm)" value="28"/>
+<gridsize name="32 pts (~12 mm)" value="32"/>
+<gridsize name="4 pts" value="4"/>
 <gridsize name="56 pts (~20 mm)" value="56"/>
-<anglesize name="90 deg" value="90"/>
-<anglesize name="60 deg" value="60"/>
-<anglesize name="45 deg" value="45"/>
-<anglesize name="30 deg" value="30"/>
-<anglesize name="22.5 deg" value="22.5"/>
+<gridsize name="8 pts (~3 mm)" value="8"/>
 <opacity name="10%" value="0.1"/>
-<opacity name="30%" value="0.3"/>
-<opacity name="50%" value="0.5"/>
 <opacity name="20%" value="0.2"/>
+<opacity name="30%" value="0.3"/>
 <opacity name="40%" value="0.4"/>
+<opacity name="50%" value="0.5"/>
 <opacity name="60%" value="0.6"/>
 <opacity name="70%" value="0.7"/>
 <opacity name="80%" value="0.8"/>
 <opacity name="90%" value="0.9"/>
+<pen name="fat" value="1.2"/>
+<pen name="heavier" value="0.8"/>
+<pen name="ultrafat" value="2"/>
+<symbolsize name="large" value="5"/>
+<symbolsize name="small" value="2"/>
+<symbolsize name="tiny" value="1.1"/>
+<textsize name="Huge" value="\Huge"/>
+<textsize name="LARGE" value="\LARGE"/>
+<textsize name="Large" value="\Large"/>
+<textsize name="footnote" value="\footnotesize"/>
+<textsize name="huge" value="\huge"/>
+<textsize name="large" value="\large"/>
+<textsize name="script" value="\scriptsize"/>
+<textsize name="small" value="\small"/>
+<textsize name="tiny" value="\tiny"/>
+<textstyle name="center" begin="\begin{center}" end="\end{center}"/>
+<textstyle name="item" begin="\begin{itemize}\item{}" end="\end{itemize}"/>
+<textstyle name="itemize" begin="\begin{itemize}" end="\end{itemize}"/>
 <tiling name="falling" angle="-60" step="4" width="1"/>
 <tiling name="rising" angle="30" step="4" width="1"/>
 </ipestyle>
 <page>
 <layer name="alpha"/>
 <view layers="alpha" active="alpha"/>
-<path layer="alpha" matrix="1 0 0 1 128 0" fill="gray7">
+<path layer="alpha" matrix="1 0 0 1 128 0" fill="gray300">
 336 640
 336 640
 336 640
@@ -497,7 +485,7 @@ h
 400 624
 368 656 u
 </path>
-<path matrix="1 0 0 1 128 0" fill="darkgray">
+<path matrix="1 0 0 1 128 0" fill="gray500">
 432 640 m
 432 592 l
 464 624 l
@@ -505,7 +493,7 @@ h
 432 640 l
 h
 </path>
-<path matrix="1 0 0 1 20 0" fill="gray7">
+<path matrix="1 0 0 1 20 0" fill="gray300">
 336 640
 336 640
 336 640
@@ -527,7 +515,7 @@ h
 400 624
 368 656 u
 </path>
-<path matrix="1 0 0 1 20 0" fill="darkgray">
+<path matrix="1 0 0 1 20 0" fill="gray500">
 432 640 m
 432 592 l
 444 604 l
@@ -537,7 +525,7 @@ h
 432 640 l
 h
 </path>
-<path matrix="1 0 0 1 128 0" fill="amarillo">
+<path matrix="1 0 0 1 128 0" fill="yellow500" opacity="40%" stroke-opacity="opaque">
 336 640
 336 640
 368 672
@@ -552,7 +540,7 @@ h
 368 656
 336 640 u
 </path>
-<path matrix="1 0 0 1 20 0" fill="azul">
+<path matrix="1 0 0 1 20 0" fill="teal500" opacity="40%" stroke-opacity="opaque">
 336 640
 336 640
 368 672
@@ -567,7 +555,7 @@ h
 368 656
 336 640 u
 </path>
-<path matrix="1 0 0 1 -52 0" fill="azul">
+<path matrix="1 0 0 1 -52 0" fill="teal500" opacity="40%" stroke-opacity="opaque">
 128 656
 128 656
 192 672
@@ -608,7 +596,7 @@ h
 41.6972 635.98
 41.4379 636.852 s
 </path>
-<use matrix="0.821928 0 0 0.821928 -13.7317 115.815" name="mark/fdisk(sfx)" pos="43.4342 688.831" size="normal" stroke="black" fill="blue"/>
+<use matrix="0.821928 0 0 0.821928 -13.7317 115.815" name="mark/fdisk(sfx)" pos="43.4342 688.831" size="normal" stroke="black" fill="blue500"/>
 <text matrix="0.821928 0 0 0.821928 -13.7317 115.815" transformations="translations" pos="28.6149 696.202" stroke="black" type="label" width="12.392" height="9.703" depth="1.09" valign="baseline" size="LARGE" style="math">+</text>
 <path matrix="0.540864 0 0 0.540864 -29.2943 247.252" stroke="black" pen="ultrafat">
 142.694 803.773 m
@@ -625,7 +613,7 @@ h
 41.6972 635.98
 41.4379 636.852 s
 </path>
-<use matrix="0.821928 0 0 0.821928 12.1839 115.815" name="mark/fdisk(sfx)" pos="43.4342 688.831" size="normal" stroke="black" fill="red"/>
+<use matrix="0.821928 0 0 0.821928 12.1839 115.815" name="mark/fdisk(sfx)" pos="43.4342 688.831" size="normal" stroke="black" fill="pink500"/>
 <text matrix="0.821928 0 0 0.821928 12.1839 115.815" transformations="translations" pos="28.6149 696.202" stroke="black" type="label" width="13.39" height="10.047" depth="1.43" valign="baseline" size="LARGE" style="math">-</text>
 <path matrix="1 0 0 1 -52 0" stroke="black" pen="ultrafat" cap="1">
 128 656 m
@@ -681,7 +669,7 @@ h
 192.119 666.667
 191.183 666.664 s
 </path>
-<path matrix="1 0 0 1 84 0" fill="amarillo">
+<path matrix="1 0 0 1 84 0" fill="yellow500" opacity="40%" stroke-opacity="opaque">
 128 656
 128 656
 192 672
